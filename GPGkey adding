@@ -1,0 +1,11 @@
+  gpg --version
+  gpg --full-generate-key
+  git config --global user.signingkey FRE45Wfg34DF@$%#$
+  git config --global commit.gpgsign true
+  git add .
+  git commit -m
+  git commit -m "added maven files"
+  git push
+  git push origin master
+
+https://www.youtube.com/watch?v=2ISu2KTPzuQ
